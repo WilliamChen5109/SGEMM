@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/MyTest.dir/src/Main.c.o CMakeFiles/MyTest.dir/src/native.c.o CMakeFiles/MyTest.dir/src/test_sgemm.c.o  -o ../bin/MyTest 

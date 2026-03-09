@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/native.h
+
+../inc/test_sgemm.h
+time.h
+-
+stdlib.h
+-
+native.h
+../inc/native.h
+
+/home/kun/Code/SGEMM/src/Main.c
+stdio.h
+-
+time.h
+-
+test_sgemm.h
+/home/kun/Code/SGEMM/src/test_sgemm.h
+
+/home/kun/Code/SGEMM/src/native.c
+
+/home/kun/Code/SGEMM/src/test_sgemm.c
+time.h
+-
+stdlib.h
+-
+native.h
+/home/kun/Code/SGEMM/src/native.h
+

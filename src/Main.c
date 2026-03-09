@@ -36,7 +36,9 @@ int main(int argc, char *argv[]) {
     }
     else if (strcmp(argv[1], "all") == 0) {
         printf("====================\n===All Size Test===\n====================\n\n'\n");
-        return 1;
+        start = 0;
+        end = 6;
+        repeat = 3;
     }
     
     for (int i = start; i < end; i++) {

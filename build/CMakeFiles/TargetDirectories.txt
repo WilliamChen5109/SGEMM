@@ -1,0 +1,3 @@
+/home/kun/Code/SGEMM/build/CMakeFiles/rebuild_cache.dir
+/home/kun/Code/SGEMM/build/CMakeFiles/edit_cache.dir
+/home/kun/Code/SGEMM/build/CMakeFiles/MyTest.dir
