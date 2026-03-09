@@ -1,0 +1,7 @@
+==============================================================
+Sgemm Project Construction and Optimization
+Start Date: March 5th, 2026
+==============================================================
+也是决定回到老话题Sgemm的话题,接下来准备花一段时间,开始Sgemm编写及优化工作.主要是巩固一下已学知识。初步打算是要涵盖cpu版本、gpu版本,从用cmake构建项目到使用openmpi,cuda以及指令集在baseline的基础上进行逐步优化。
+
+Good luck !
