@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "../bin/MyTest.pdb"
   "CMakeFiles/MyTest.dir/src/Main.c.o"
   "CMakeFiles/MyTest.dir/src/native.c.o"
+  "CMakeFiles/MyTest.dir/src/optimization.c.o"
   "CMakeFiles/MyTest.dir/src/test_sgemm.c.o"
 )
 

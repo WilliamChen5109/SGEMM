@@ -177,6 +177,33 @@ src/native.c.s:
 	$(MAKE) -f CMakeFiles/MyTest.dir/build.make CMakeFiles/MyTest.dir/src/native.c.s
 .PHONY : src/native.c.s
 
+src/optimization.o: src/optimization.c.o
+
+.PHONY : src/optimization.o
+
+# target to build an object file
+src/optimization.c.o:
+	$(MAKE) -f CMakeFiles/MyTest.dir/build.make CMakeFiles/MyTest.dir/src/optimization.c.o
+.PHONY : src/optimization.c.o
+
+src/optimization.i: src/optimization.c.i
+
+.PHONY : src/optimization.i
+
+# target to preprocess a source file
+src/optimization.c.i:
+	$(MAKE) -f CMakeFiles/MyTest.dir/build.make CMakeFiles/MyTest.dir/src/optimization.c.i
+.PHONY : src/optimization.c.i
+
+src/optimization.s: src/optimization.c.s
+
+.PHONY : src/optimization.s
+
+# target to generate assembly for a file
+src/optimization.c.s:
+	$(MAKE) -f CMakeFiles/MyTest.dir/build.make CMakeFiles/MyTest.dir/src/optimization.c.s
+.PHONY : src/optimization.c.s
+
 src/test_sgemm.o: src/test_sgemm.c.o
 
 .PHONY : src/test_sgemm.o
@@ -219,6 +246,9 @@ help:
 	@echo "... src/native.o"
 	@echo "... src/native.i"
 	@echo "... src/native.s"
+	@echo "... src/optimization.o"
+	@echo "... src/optimization.i"
+	@echo "... src/optimization.s"
 	@echo "... src/test_sgemm.o"
 	@echo "... src/test_sgemm.i"
 	@echo "... src/test_sgemm.s"

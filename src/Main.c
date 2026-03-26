@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
     printf("=SGEMM test start=\n");
     printf("==================\n\n");
     
-    int sizes[] = {128, 256, 512, 768, 1024, 1536};
+    int sizes[] = { 128, 256, 512, 768, 1024, 1536};
     int start, end;
     
     int repeat;

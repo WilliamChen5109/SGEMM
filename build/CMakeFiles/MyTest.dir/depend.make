@@ -7,6 +7,10 @@ CMakeFiles/MyTest.dir/src/Main.c.o: ../src/Main.c
 
 CMakeFiles/MyTest.dir/src/native.c.o: ../src/native.c
 
+CMakeFiles/MyTest.dir/src/optimization.c.o: ../src/optimization.c
+
 CMakeFiles/MyTest.dir/src/test_sgemm.c.o: ../inc/native.h
+CMakeFiles/MyTest.dir/src/test_sgemm.c.o: ../inc/optimization.h
 CMakeFiles/MyTest.dir/src/test_sgemm.c.o: ../src/test_sgemm.c
+CMakeFiles/MyTest.dir/src/test_sgemm.c.o: /home/kun/spack/opt/spack/linux-x86_64_v4/amdblis-5.2-7c4ickkpixrejjmg4j7x44csmdh4ucma/include/blis/blis.h
 
